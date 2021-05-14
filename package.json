@@ -1,0 +1,19 @@
+{
+  "name": "api-finance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:M3gnow/api-finance.git",
+  "author": "Thiago Araujo <thiago.araujo72@etec.sp.gov.br>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.33",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon api-finance.js"
+  }
+}
